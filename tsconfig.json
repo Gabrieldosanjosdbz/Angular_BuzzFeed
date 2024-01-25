@@ -4,6 +4,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+
+    "resolveJsonModule": true,      //ajuda nosso Angular a resolver e entender JSONs 
+    "allowSyntheticDefaultImports": true,     //ele entender as importações de arquivos que não são TS, tipo arquivo JSON 
+
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
